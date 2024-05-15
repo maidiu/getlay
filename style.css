@@ -1,0 +1,169 @@
+/* {border: black solid 1px;}*/
+
+@font-face {
+    font-family: 'Chido';
+    src: url('chido.otf') format('opentype');
+
+}
+
+.hidden {
+    display: none !important;
+}
+
+body {
+   
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(250, 237, 222);*/
+    background-color: rgb(190, 246, 216);
+    font-family: 'Chido';
+    font-size: 25px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#froggo-and-logo {
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20vh;
+    width: 100vw;
+    height: 19vh;
+    background-color: rgb(190, 246, 216);
+    z-index: 1;
+}
+
+
+#fwl {
+    width: 90%;
+    opacity: .95;
+    max-width: 1389px;
+}
+
+
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(190, 246, 216);
+    padding-top: .8vh;
+    padding-bottom: .8vh;
+    position: fixed;
+        bottom: 0;
+}
+
+.page-open {
+    justify-content: space-evenly !important;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chido';
+    width: 120px;
+    height: 50px;
+    font-size: 40px;
+    border: black solid 3px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+}
+
+.open-buttons {
+    font-size: 30px;
+    width: 110px;
+}
+
+#text-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin-top: 18vh;
+    padding-bottom: 10vh;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.art, .out {
+    width: 300px;
+    border-radius: 15px;
+    border: black solid 3px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 3vw;
+    height: 45vh;
+    width: 60vw;
+    font-size: 30px;
+}
+#out-box {
+    padding-bottom: 10vh;
+}
+#out-top {
+    margin-top: 40vh;
+}
+
+
+
+@media (width > 799px) {
+    button {
+        width: 200px;
+        height: 70px;
+        font-size: 50px;
+    }
+    .open-buttons {
+        width: 200px;
+        height: 70px;
+        font-size: 50px;
+    }
+
+    #froggo-and-logo {
+        justify-content: center;
+        
+    }
+
+    #text-container {
+        margin-top: 60vh;
+
+    }
+
+    .art, .out {
+        
+        width: 35vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    #about-container {
+        width: 30vw;
+        font-size: 50px;
+        padding: 1vw;
+    }
+}
