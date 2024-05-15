@@ -94,13 +94,17 @@ button {
     align-items: center;
     height: 90%;
     margin-top: 18vh;
-    padding-bottom: 10vh;
+    padding-bottom: 12vh;
+    text-align: center;
 }
 .text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+}
+
+#art-box {
+    margin-top: 5vh;
 
 }
 
@@ -128,7 +132,7 @@ button {
     padding-bottom: 10vh;
 }
 #out-top {
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 
 
@@ -151,7 +155,7 @@ button {
     }
 
     #text-container {
-        margin-top: 60vh;
+        margin-top: 50vh;
 
     }
 
@@ -165,5 +169,20 @@ button {
         width: 30vw;
         font-size: 50px;
         padding: 1vw;
+        align-items: center;
     }
+
+    #about-box {
+        margin-top: -30vh;
+    }
+
+    #out-top {
+        margin-top: 25vh;
+    }
+    #art-box {
+        margin-top: -5vh;
+        
+    }
+
+
 }
